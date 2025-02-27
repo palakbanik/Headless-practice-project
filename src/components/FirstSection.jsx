@@ -12,7 +12,7 @@ const FirstSection = () => {
     <>
       <section className="px-4 py-20">
         <div className="my-10">
-          <div className="flex justify-between items-center lg:container mb-6 ">
+          <div className="flex justify-between  items-center lg:container mb-6 ">
             <BigFont text={"Discover Trending Categories"} />
             <button className="transparentBtn hidden md:block md:mr-14 lg:mr-1 md:mb-8">
               Explore all categories
