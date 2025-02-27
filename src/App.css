@@ -1,0 +1,54 @@
+.transparentBtn {
+  border: 2px solid black;
+  padding: 14px 25px;
+  /* font-size: 14px; */
+  font-weight: 600;
+  color: #020202;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+.transparentBtn:hover {
+  background: #020202;
+  color: white;
+}
+.listItem {
+  padding: 18px;
+  border-bottom: 1px solid gray;
+  font-size: 14px;
+  cursor: pointer;
+}
+.menuList {
+  color: gray;
+  width: 100%;
+}
+.btn {
+  border: 2px solid white;
+  width: 180px;
+  border-radius: 5px;
+  padding: 8px 0;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: white;
+  color: #202020;
+}
+.footerList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /* margin-top: 10px; */
+}
+
+.footerListItem {
+  font-size: clamp(14px, 3vw, 15px);
+  font-weight: 500;
+  padding-left: 12px;
+  cursor: pointer;
+  color: #d1d1d1;
+}
+
+.footerListItem:hover {
+  text-decoration: underline;
+}
