@@ -58,7 +58,7 @@ function Header() {
         </div>
       </nav>
 
-      <nav className="fixed top-0 right-0 w-full h-auto z-50 bg-textColor text-white py-5 hidden lg:block ">
+      <nav className=" w-full h-auto z-50 bg-textColor text-white py-5 hidden lg:block ">
         <div className="flex mr-10 items-center justify-between">
           <div className="flex items-center gap-5 xl:gap-8 ml-10">
             <select className="bg-textColor text-lg border border-black cursor-pointer">

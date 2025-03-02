@@ -14,7 +14,7 @@ const NewContributors = () => {
           <img
             src={BigCircle}
             alt=""
-            className="absolute bottom-0 w-auto h-96 md:left-[25%] lg:left-[26%] xl:left-[33%] flex items-center justify-center"
+            className="absolute bottom-0 w-auto h-96 md:left-[25%] lg:left-[26%] xl:left-[33%] flex items-center justify-center -"
           />
           <img
             src={LeftCircle}
@@ -41,18 +41,18 @@ const NewContributors = () => {
             <i className="ri-add-circle-fill text-[2.7rem] -ml-3 text-[#3c3c3c] z-10"></i>
           </div>
 
-          <div className="container">
+          <div className="container z-50">
             <h2 className="font-bold text-2xl lg:text-4xl mb-6 z-10">
-              Become A <span className="font-AlexBrush z-10">Contributor</span>{" "}
+              Become A <span className="font-AlexBrush z-50">Contributor</span>{" "}
               Today
             </h2>
             <p className="mb-5 lg:text-xl z-10">
               Help us create the world's largest stock photo library, become a{" "}
-              <br className="hidden md:block z-10" /> contributor and get paid
+              <br className="hidden md:block z-50" /> contributor and get paid
               for your assets.
             </p>
           </div>
-          <button className="blackBtn md:text-xl z-10">Let's Contribute</button>
+          <button className="blackBtn md:text-xl z-50">Let's Contribute</button>
         </div>
       </div>
     </>

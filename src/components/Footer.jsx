@@ -132,9 +132,17 @@ const Footer = () => {
                   </div>
                   <div>
                     <div className="flex  items-center justify-center gap-5">
-                      <i className="ri-facebook-box-fill text-4xl cursor-pointer"></i>
-                      <i className="ri-twitter-x-line text-4xl cursor-pointer"></i>
-                      <i className="ri-instagram-line text-4xl cursor-pointer"></i>
+                      <a href="#">
+                        <i className="ri-facebook-box-fill text-4xl cursor-pointer"></i>
+                      </a>
+                      <a href="#">
+                        {" "}
+                        <i className="ri-twitter-x-line text-4xl cursor-pointer"></i>
+                      </a>
+                      <a href="#">
+                        {" "}
+                        <i className="ri-instagram-line text-4xl cursor-pointer"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
