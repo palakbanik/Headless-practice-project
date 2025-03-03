@@ -52,7 +52,7 @@ const NewContributors = () => {
               for your assets.
             </p>
           </div>
-          <button className="blackBtn md:text-xl z-50">Let's Contribute</button>
+          <button className="blackBtn md:text-xl z-10">Let's Contribute</button>
         </div>
       </div>
     </>

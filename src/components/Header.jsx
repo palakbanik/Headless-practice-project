@@ -15,7 +15,7 @@ function Header() {
     <>
       {/* ====================== NAVBAR ====================== */}
 
-      <nav className="bg-black py-5 lg:hidden w-full h-auto fixed top-0 left-0 z-50">
+      <nav className="bg-black py-5 lg:hidden w-full h-auto fixed top-0 left-0 z-50 ">
         <div className="flex justify-between items-center container px-4">
           <a href="#">
             <img src={whiteLogo} alt="logo" className="w-36 h-auto" />
@@ -58,7 +58,7 @@ function Header() {
         </div>
       </nav>
 
-      <nav className=" w-full h-auto z-50 bg-textColor text-white py-5 hidden lg:block ">
+      <nav className=" w-full h-auto z-50 bg-textColor text-white py-5 hidden lg:block  sticky top-0 left-0 ">
         <div className="flex mr-10 items-center justify-between">
           <div className="flex items-center gap-5 xl:gap-8 ml-10">
             <select className="bg-textColor text-lg border border-black cursor-pointer">

@@ -159,14 +159,14 @@ const Footer = () => {
               />
             </div>
 
-            <div className="container flex flex-col xl:flex items-center justify-between text-center gap-4 ">
+            <div className="container flex flex-col xl:grid xl:grid-cols-2  items-center justify-between text-center gap-4 ">
               <div>
-                <p className="text-xs text-footerText">
+                <p className="text-xs xl:text-sm text-footerText">
                   &copy; 2025 DESIGN FOR EVERYONE, ALL RIGHTS RESERVED BY ICT
                   DIVISION
                 </p>
               </div>
-              <div className="text-xs text-footerText">
+              <div className="text-xs xl:text-sm text-footerText">
                 <p>
                   Technical support by
                   <a
